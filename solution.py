@@ -36,7 +36,7 @@ def add_new_car(list_cars):
         if not id_car in list_cars:
             break
         print("Car's id must be unique, re-enter")
-        id_car = input()
+        id_car = check_text_value('id')
     manufacturer = check_text_value('manufacturer')
     model = check_text_value('model')
     body = check_text_value('body')
